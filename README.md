@@ -1,7 +1,6 @@
 # Squish
 
-A small native Mac app wrapping the same logic as `../compress-images.py`.
-No Python, no Pillow, no venv — it uses macOS's built-in ImageIO.
+A small native Mac app that squishes images down to smaller sizes. Unitasker built to automate a pesky workflow I find myself doing frequently for web content management.
 
 ## Use
 
@@ -31,7 +30,7 @@ The icon (🤏 on a white rounded tile) is generated at build time by
 
 ## How it compresses
 
-Same ladder as the Python script — quality 95 stepping down by 5, floor 15,
+Same ladder as my compress-images Python script — quality 95 stepping down by 5, floor 15,
 matching the script's `while quality > 10` loop — but the rung is found by binary
 search rather than by encoding every rung on the way down.
 
