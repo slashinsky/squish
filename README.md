@@ -4,8 +4,7 @@ A small native Mac app that squishes images down to smaller sizes. Unitasker bui
 
 ## Download
 
-**[⬇ Download Squish for Mac](https://github.com/slashinsky/squish/releases/latest/download/Squish.zip)** — 331 KB, no Terminal required.
-
+**[⬇ Download Squish for Mac](https://github.com/slashinsky/squish/releases/latest/download/Squish.zip)**
 Requires an Apple Silicon Mac (M1 or newer) running macOS 13 Ventura or later.
 
 1. Click the link above, then double-click `Squish.zip` in your Downloads folder to unzip it.
