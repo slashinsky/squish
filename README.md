@@ -1,6 +1,6 @@
 # Squish
 
-A small native Mac app that squishes images down to smaller sizes. Unitasker built to automate a pesky workflow I find myself doing frequently for web content management.
+A small native Mac app that squishes images down to smaller filesizes while preserving their aspect ratio. Unitasker built to automate a pesky workflow I find myself doing frequently for web content management.
 
 ## Download
 
