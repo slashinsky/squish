@@ -32,22 +32,6 @@ the result when it finishes.
 If a `_Compressed` folder already exists, it makes `_Compressed 2` rather than
 overwriting.
 
-## Build
-
-```sh
-./build.sh
-```
-
-Produces `Squish.app` (~510 KB, mostly the icon) in this directory. Requires only
-the Xcode Command Line Tools.
-
-```sh
-./build.sh --install   # also copies it to /Applications
-```
-
-The icon (🤏 on a white rounded tile) is generated at build time by
-`Tools/makeicon.swift` — there is no checked-in image asset.
-
 ## How it compresses
 
 Same ladder as my compress-images Python script — quality 95 stepping down by 5, floor 15,
